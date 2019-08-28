@@ -9,7 +9,11 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background:url("./components/images/Trainer-Battles-Arena.jpg");
+  background-size: cover; 
+  background-repeat: none;
 }
+
 
 
 .container{
@@ -20,10 +24,15 @@ body {
 
 .child-container{
   width: 35%;
+  
 }
 
 .card-info-section{
   padding: .5rem;
+  background-color: beige;
+  border-radius: 1rem;
+ 
+
 }
 
 li{

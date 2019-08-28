@@ -26,7 +26,7 @@ class Brew extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main-div">
         <input type="search"
           placeholder="Type Pokemon Here"
           onChange={this.updateUserInput}
@@ -38,7 +38,6 @@ class Brew extends Component {
             return (
               <li key={card.id}>
                 <section className="card-info-section">
-
                   <p>{card.name}</p>
                   <p>{card.nationalPokedexNumber}</p>
                   <p>{card.types}</p>
